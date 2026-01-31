@@ -9,19 +9,6 @@ This repository contains community-contributed configurations for various AI cod
 - **Subagents** - Complete autonomous agent configurations for complex, multi-step tasks
 - **Skills** - Focused capability templates for specific tasks
 
-### Supported Platforms
-
-| Platform | Description |
-|----------|-------------|
-| Cursor | Subagents and Skills for Cursor IDE |
-| OpenClaw | Skills for OpenClaw |
-| Windsurf | Subagents for Windsurf |
-| Aider | Configurations for Aider |
-| Continue | Skills for Continue |
-| Sourcegraph Cody | Skills for Cody |
-| GitHub Copilot | Extensions for Copilot |
-| Other | Generic configurations |
-
 ## Repository Structure
 
 ```
@@ -57,7 +44,7 @@ Every `.md` file must include YAML frontmatter:
 name: My Subagent
 description: A brief description (1-2 sentences)
 type: # subagent or skill
-platform: # cursor, openclaw, windsurf, aider, continue, cody, copilot, other
+platform: # cursor, openclaw, windsurf, copilot, other
 category: Development
 recommendedLLMs:  # optional `claude-3-opus`, `claude-3-sonnet`, `claude-3-haiku`, `claude-3.5-sonnet`, `other`
   - claude-3.5-sonnet
