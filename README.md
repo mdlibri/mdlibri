@@ -2,7 +2,7 @@ MdLibro
 
 This project is a open-source library of markdowns for agentic AI, specifically Subagents and Skills.
 
-This repository contains community-contributed configurations for various AI coding platforms. Each configuration is stored as a `.md` file with YAML frontmatter that enables filtering and categorization on our mdlib.xyz website
+This repository contains community-contributed configurations for various AI coding platforms. Each configuration is stored as a `.md` file with YAML frontmatter that enables filtering and categorization on our mdlibri.org website
 
 ### Types
 
