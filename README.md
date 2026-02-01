@@ -1,4 +1,4 @@
-MdLibro 
+MdLibri
 
 This project is a open-source library of markdowns for agentic AI, specifically Subagents and Skills.
 
